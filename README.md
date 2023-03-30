@@ -25,16 +25,16 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 Data Visualization: 
 
 Questions:
--(1) Countries: The country that becomes the subject of production is predetermined. I would also like to see a distinction between countries that only produce, countries that only consume, and countries that do both.
--(2) Production and other features: does production increase if consumption was high in the previous year? Is there a relationship with the previous year's price?
--(3) Ratios of domestic/imports/exports by country and continent. How does this relate to other global indices like GDP and population?
--(4) What's a cause and effect between price and consumption?
--(5) What is the relationship between growers and retail prices for both groups? How does this relate to production and consumption?
+1. Countries: The country that becomes the subject of production is predetermined. I would also like to see a distinction between countries that only produce, countries that only consume, and countries that do both.
+2.  Production and other features: does production increase if consumption was high in the previous year? Is there a relationship with the previous year's price?
+3.  Ratios of domestic/imports/exports by country and continent. How does this relate to other global indices like GDP and population?
+4. What's a cause and effect between price and consumption?
+5.  What is the relationship between growers and retail prices for both groups? How does this relate to production and consumption?
 
 ### Model
 
--(1) Regression
--(2) Time Series Forcasting
--(3) Clustering of Countries and Years
+1. Regression
+2. Time Series Forcasting
+3. Clustering of Countries and Years
 
   
