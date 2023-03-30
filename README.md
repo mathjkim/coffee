@@ -2,25 +2,30 @@
 
 This project is aimed at helping people who are interested in the global coffee production, trading, and consumption. A historical data on the global coffee trade from the International Coffee Organization (ICO)  is retrieved with Pandas. An interactive dashboard is built for highlighting insightful information visually.
 
+#### Motivation and Goals 
+
+
 ## Methods
 - Data Visualization: python, Tableuax
 - Statistics
 - Machine Learning: Regression, Time Series Forcasting, Clustering
 
-### Data Collection
+## Data
+
+#### Data Collection
 
 Historical Data on the Global Coffee Trade https://www.ico.org/new_historical.asp 
 
 International Coffee Organization(ICO) provides data on coffee industry over 30 years between 1990-2019. We use 9 .xlsx files: production, domestic consumption, gross opening stocks, exports, imports, re-exports, price to growers, retail price, and consumption recorded for different countries and years.
   
-### Data Cleaning
+#### Data Cleaning
 
 Each excel file should be a feature in the dataframe in pandas. Our goal is to combine the tables in to one, using 'pd.melt'and 'pd.merge'. At the same time, we deal with missing values and redundant values. Also, messy string data is cleaned. 
 
 - Structure: assign proper data type
 - Quality: drop empty rows, unified format, remove unnessarily aggregated rows 
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Data Visualization: 
 
@@ -31,7 +36,7 @@ Questions:
 4. What's a cause and effect between price and consumption?
 5.  What is the relationship between growers and retail prices for both groups? How does this relate to production and consumption?
 
-### Model
+## Predictive Model
 
 1. Regression
 2. Time Series Forcasting
